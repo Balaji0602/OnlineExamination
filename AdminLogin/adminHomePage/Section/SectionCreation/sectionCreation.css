@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+body{
+	background-image: url(classroom.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	top: 5%;
+	left: 33%;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Volkhov', serif;
+}
+h3{
+	top: 15%;
+	left: 40%;
+	position: absolute;
+	font-family: 'Volkhov', serif;
+	font-size: 20px;
+}
+input#section{
+	top: 25%;
+	left: 10%;
+	position: absolute;
+	width: 1000px;
+	height: 45px;
+	border-radius: 20px;
+	border: 3px solid #000;
+	font-family: 'Balsamiq Sans', cursive;
+	background-color: white;
+}
+input#createbtn{
+	top: 25%;
+	left: 78%;
+	position: absolute;
+	width: 150px;
+	height: 52px;
+	border-radius: 20px;
+	border: 2px solid #000;
+	font-family: 'Balsamiq Sans', cursive;
+	color: white;
+	font-size: 20px;
+	background-color: #192EFF;
+}
+input#createbtn:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #192EFF;
+	border: 2px solid #192EFF;
+}
+table{
+	top: 35%;
+	left: 10%;
+	position: absolute;
+	width: 1160px;
+	background-color: white;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+	height:40px;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+.fas.fa-times{
+	background-color: #FF4141;
+}
+.fas.fa-times:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid #FF4141;
+	color: #FF4141;
+}
+.fas.fa-pen:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid #192EFF;
+	color: #192EFF;
+}

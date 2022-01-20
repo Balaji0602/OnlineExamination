@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(loginbg.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	font-family: 'Volkhov', serif;
+}
+.AdminLoginBox{
+	background-color: white;
+	width: 380px;
+	height: 380px;
+	left: 15%;
+	top: 25%;
+	position: absolute;
+	padding: 30px 1px;
+	border-radius: 25px;
+	font-family: 'Balsamiq Sans', cursive;
+	border: 3px solid black;
+}
+.inputbox{
+	top: 25%;
+	left: 25%;
+	position: absolute;
+}
+h2{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.inputbox input[type = "text"]{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.inputbox input[type = "password"]{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;	
+}
+.inputbox input[type = "button"]{
+	border: none;
+	outline: none;
+	width: 240px;
+	height: 40px;
+	left: -10%;
+	position: relative;
+	border-radius: 10px;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+.inputbox input[type = "button"]:hover{
+	cursor: pointer;
+	width: 241px;
+	height: 41px;
+	left: -10%;
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+p{
+	font-size: 17px;
+}
+.inputbox input[type = "password"]:hover{
+	cursor: pointer;
+}
+.inputbox input[type = "text"]:hover{
+	cursor: pointer;
+}
+.AdminLoginBox:hover{
+	cursor: context-menu;
+}
+h1:hover{
+	cursor: context-menu;
+}
+
+.StudentLoginBox{
+	background-color: white;
+	width: 380px;
+	height: 380px;
+	left: 60%;
+	top: 25%;
+	position: absolute;
+	padding: 30px 1px;
+	border-radius: 25px;
+	font-family: 'Balsamiq Sans', cursive;
+	border: 3px solid black;
+}
+.stuinputbox{
+	top: 25%;
+	left: 25%;
+	position: absolute;
+}
+.stuinputbox input[type = "text"]{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+.stuinputbox input[type = "password"]{
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	font-size: 17px;
+	font-family: 'Balsamiq Sans', cursive;	
+}
+.stuinputbox input[type = "button"]{
+	border: none;
+	outline: none;
+	width: 240px;
+	height: 40px;
+	left: -10%;
+	position: relative;
+	border-radius: 10px;
+	background-color: #F62B2B;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+.stuinputbox input[type = "button"]:hover{
+	cursor: pointer;
+	width: 241px;
+	height: 41px;
+	left: -10%;
+	background-color: white;
+	color: #F62B2B;
+	border: 3px solid #F62B2B;
+}
+.stuinputbox input[type = "password"]:hover{
+	cursor: pointer;
+}
+.stuinputbox input[type = "text"]:hover{
+	cursor: pointer;
+}
+a.stulink{
+	text-decoration: none;
+	color: #F62B2B;
+}
+

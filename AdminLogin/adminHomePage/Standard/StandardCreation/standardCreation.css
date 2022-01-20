@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+body{
+	background-image: url(classroom.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	top: 5%;
+	left: 33%;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Volkhov', serif;
+}
+h3{
+	top: 15%;
+	left: 40%;
+	position: absolute;
+	font-family: 'Volkhov', serif;
+	font-size: 20px;
+}
+input#std{
+	top: 25%;
+	left: 10%;
+	position: absolute;
+	width: 1000px;
+	height: 45px;
+	border-radius: 20px;
+	border: 3px solid #000;
+	font-family: 'Balsamiq Sans', cursive;
+}
+input#setbtn{
+	top: 25%;
+	left: 78%;
+	position: absolute;
+	width: 150px;
+	height: 52px;
+	border-radius: 20px;
+	border: 2px solid #000;
+	font-family: 'Balsamiq Sans', cursive;
+	color: white;
+	font-size: 20px;
+	background-color: #192EFF;
+}
+input#setbtn:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #192EFF;
+	border: 2px solid #192EFF;
+}
+table{
+	top: 35%;
+	left: 10%;
+	position: absolute;
+	width: 1160px;
+	background-color: white;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+	height:40px;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+.fas{
+	border: none;
+	background-color:#192EFF;
+	color: white;
+	width: 40px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.fas.fa-times{
+	background-color: #FF4141;
+}
+.fas.fa-times:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid #FF4141;
+	color: #FF4141;
+}
+.fas.fa-pen:hover{
+	cursor: pointer;
+	background-color: white;
+	border: 2px solid #192EFF;
+	color: #192EFF;
+}
+input#back{
+	width: 100px;
+	height: 30px;
+	background-color: #FFD411;
+	border-radius: 8px;
+	outline: none;
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 13px;
+}
+input#next{
+	width: 100px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: #FFD411;
+	outline: none;
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 13px;
+}
+input#back:hover{
+	background-color: white;
+	border: 3px solid yellow;
+}
+input#next:hover{
+	background-color: white;
+	border: 3px solid yellow;
+}

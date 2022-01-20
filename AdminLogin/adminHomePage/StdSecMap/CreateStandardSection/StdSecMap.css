@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+body{
+	background-image: url(classroom.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	top: 5%;
+	left: 37%;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Volkhov', serif;
+}
+h3{
+	top: 15%;
+	left: 40%;
+	position: absolute;
+	font-family: 'Volkhov', serif;
+	font-size: 20px;
+}
+table{
+	background-color: white;
+}

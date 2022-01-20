@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home - ZYXW Higher Secondary School</title>
+	<link rel="stylesheet" type="text/css" href="SchoolHome.css">
+	<script src="https://kit.fontawesome.com/a50c5d99bb.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		function backbtn() {
+			window.location.href = "../loginPage/AdminLogin.html";
+		}
+		function createStuStd() {
+			window.location.href = "./Standard/StandardCreation/standardCreationFE.jsp";
+		}
+		function studentLoginPage() {
+			window.location.href = "";
+		}
+		function questionPreparation() {
+			window.location.href = "./QuestionPreparation/QuestionPreparationIndex.jsp";
+		}
+	</script>
+</head>
+<body>
+	<div class="backbtn">
+	<button class="fas fa-home" onclick="backbtn();"></button><br><br>
+	</div>
+		<div class="welcomeschool">
+			<h1>Welcome to ZYXW Higher Secondary School</h1>
+		</div>
+		<div class="mainContent">
+			<div class="registerStudentBox">
+				<p>Register Your Students Here</p>
+				<input type="button" name="" value="Register" onclick="studentLoginPage();">
+			</div>
+			<div class="createStandardSection">
+				<p>Create your Standard and Section</p>
+				<input type="button" value="Create" onclick="createStuStd();">
+			</div>
+			<div class="onlineExamBox">
+				<p>Prepare the Exam Question Here</p>
+				<input type="submit" name="" value="Create" onclick="questionPreparation();">
+			</div>
+			<div class="uploadMarks">
+				<p>Upload Marks</p>
+				<input type="submit" name="" value="Upload">
+			</div>
+		</div>
+</body>
+</html>

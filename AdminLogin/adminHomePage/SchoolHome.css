@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Volkhov&display=swap');
+
+body{
+	background-image: url("SchoolHome.jpg");
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	top: 10%;
+	left: 27%;
+	position: absolute;
+	font-family: 'Volkhov', serif;
+}
+.fas{
+	top: 13%;
+	left: 75%;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: none;
+	outline: none;
+	background-color: #192EFF;
+	color: white;
+	border-radius: 10px;
+}
+.registerStudentBox{
+	background-color: white;
+	width: 340px;
+	height: 130px;
+	top: 30%;
+	left: 17%;
+	position: absolute;
+	border-radius: 20px;
+	border: 3px solid #000;
+}
+.createStandardSection{
+	background-color: white;
+	width: 340px;
+	height: 130px;
+	top: 30%;
+	left: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: 3px solid #000;
+}
+.onlineExamBox{
+	background-color: white;
+	width: 340px;
+	height: 130px;
+	top: 60%;
+	left: 17%;
+	position: absolute;
+	border-radius: 20px;
+	border: 3px solid #000;
+}
+.uploadMarks{
+	background-color: white;
+	width: 340px;
+	height: 130px;
+	top: 60%;
+	left: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: 3px solid #000;
+}
+p{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: 17px;
+}
+.registerStudentBox input{
+	width: 120px;
+	height: 40px;
+	left: 30%;
+	top: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+.createStandardSection input{
+	width: 120px;
+	height: 40px;
+	left: 30%;
+	top: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+.onlineExamBox input{
+	width: 120px;
+	height: 40px;
+	left: 30%;
+	top: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+.uploadMarks input{
+	width: 120px;
+	height: 40px;
+	left: 30%;
+	top: 60%;
+	position: absolute;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color: #192EFF;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;	
+	font-size: 18px;
+}
+.registerStudentBox input:hover{
+	border: 3px solid #192EFF;
+	color: #192EFF;
+	background-color: white;
+}
+.createStandardSection input:hover{
+	border: 3px solid #192EFF;
+	color: #192EFF;
+	background-color: white;
+}
+.onlineExamBox input:hover{
+	border: 3px solid #192EFF;
+	color: #192EFF;
+	background-color: white;
+}
+.uploadMarks input:hover{
+	border: 3px solid #192EFF;
+	color: #192EFF;
+	background-color: white;
+}
